@@ -1,0 +1,28 @@
+{
+  "name": "SearchX",
+  "description": "A telegram bot writen in python for searching files in Google Drive",
+  "keywords": [
+    "l3v11",
+    "svr",
+    "repo",
+    "telegram",
+    "drive",
+    "search",
+    "bot"
+  ],
+  "website": "https://github.com/l3v11",
+  "repository": "https://github.com/l3v11/SearchX",
+  "env": {
+    "CONFIG_ENV_URL": {
+      "description": "Upload the config.env file on GitHub Gist. Now open the raw link of that gist and remove commit id from the link. Then fill the var with that link.",
+      "required": false
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "stack": "container"
+}
